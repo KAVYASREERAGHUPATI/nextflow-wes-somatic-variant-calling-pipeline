@@ -1,7 +1,7 @@
 # nextflow-wes-somatic-variant-calling-pipeline
 Reproducible Nextflow DSL2 pipeline for tumor-normal WES, integrating QC, BWA-MEM2 alignment, GATK preprocessing, Mutect2 somatic variant calling, VEP annotation, variant filtering, and MultiQC reporting.
 
-# Nextflow WES Somatic Variant Calling Pipeline
+# Pipeline info
 This repository contains a reproducible **Nextflow DSL2 pipeline for somatic variant calling from paired tumor-normal whole-exome sequencing (WES) data**.
 
 The pipeline performs quality control, read preprocessing, alignment, duplicate marking, base quality score recalibration, somatic variant calling, variant filtering, functional annotation, cohort-level table generation, and quality-control reporting.
