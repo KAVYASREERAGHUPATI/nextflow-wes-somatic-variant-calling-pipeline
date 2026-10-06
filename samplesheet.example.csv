@@ -1,0 +1,5 @@
+patient_id,sample_type,r1,r2
+patient01,tumor,data/patient01_tumor_R1.fastq.gz,data/patient01_tumor_R2.fastq.gz
+patient01,normal,data/patient01_normal_R1.fastq.gz,data/patient01_normal_R2.fastq.gz
+patient02,tumor,data/patient02_tumor_R1.fastq.gz,data/patient02_tumor_R2.fastq.gz
+patient02,normal,data/patient02_normal_R1.fastq.gz,data/patient02_normal_R2.fastq.gz
