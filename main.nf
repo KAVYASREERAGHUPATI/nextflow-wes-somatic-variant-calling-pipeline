@@ -53,6 +53,12 @@ include { FILTER_POPULATION_AF }       from './modules/filter_population_af'
 include { MULTIQC }                    from './modules/multiqc'
 
 
+// Output Management
+
+//Final analysis outputs, including filtered VCF files, annotated variants, variant tables, cohort-level results, and MultiQC reports, are published to the `results/` directory.
+
+//Large intermediate files generated during preprocessing steps, such as trimmed FASTQ files, aligned BAM files, duplicate-marked BAM files, and BQSR intermediate files, are not published to the `results/` directory because they are not required for downstream analysis. These files remain temporarily available in the Nextflow `work/` directory and are automatically passed between pipeline processes.
+
 // ------------------------------------------------------------
 // WORKFLOW
 // ------------------------------------------------------------
