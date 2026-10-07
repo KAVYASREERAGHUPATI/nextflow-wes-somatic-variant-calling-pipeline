@@ -1,9 +1,7 @@
 # Docker image for the Nextflow WES somatic variant calling pipeline
-# Includes tools for QC, trimming, alignment, GATK processing,
-# somatic variant calling, VEP annotation, and MultiQC reporting.
+# Includes tools for QC, trimming, alignment, GATK processing, somatic variant calling, VEP annotation and MultiQC reporting.
 
 FROM ubuntu:24.04
-
 
 # Install system dependencies and bioinformatics tools
 RUN apt-get update && apt-get install -y \
